@@ -1,0 +1,140 @@
+/* CSS styles for the main-header class */
+.main-header {
+    color: #000000;
+    text-align: center;
+    padding: 10px;
+  flex-grow: 1; 
+
+  max-width: 100%; 
+}
+.main-header h1 {
+    margin: 0;
+}
+.main-header p {
+    margin: 10px 0;
+}
+
+.container {
+
+   width: 1500px; /* Set the width to your desired fixed size */
+    margin: auto; /* Center the container */
+    margin-bottom: 20px;
+    padding: 20px;/* Optional padding */ 
+    max-width: 100%; /* Default max-width */
+        display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.container-top {
+
+    width: 1400px; /* Set the width to your desired fixed size */
+     margin: auto; /* Center the container */
+     margin-bottom: 20px;
+     padding: 20px;/* Optional padding */ 
+     max-width: 100%; /* Default max-width */
+     display: flex;
+     text-align: center;
+     justify-content: space-around;
+ }
+
+ .container-text-hello {
+    margin: auto;
+    text-align: center;
+ }
+
+/* Responsive class for different screen sizes */
+.responsive {
+    width: 90%; /* Adjust width for responsiveness */
+}
+
+/* Media query for larger screens (adjust as needed) */
+@media (min-width: 768px) {
+    .responsive {
+        max-width: 1400px; /* Example maximum width for larger screens */
+    }
+}
+
+.card {
+    background-color: #fff; /* Background color of the card */
+    box-shadow: 4px 4px 8px 4px rgba(0,0,0,0.2); /* Shadow effect */
+    border-radius: 8px; /* Rounded corners for the card */
+    width: 755px; /* Width of the card */
+  }
+
+.card-2 {
+    background-color: #fff; /* Background color of the card */
+    box-shadow: 4px 4px 8px 4px rgba(0,0,0,0.2); /* Shadow effect */
+    border-radius: 8px; /* Rounded corners for the card */
+    width: 550px; /* Width of the card */
+    text-align: center;
+
+}
+.card-3 {
+   background-color: #fff; /* Background color of the card */
+   box-shadow: 4px 4px 8px 4px rgba(0,0,0,0.2); /* Shadow effect */
+   border-radius: 8px; /* Rounded corners for the card */
+   width: 755px; /* Width of the card */
+
+}
+
+.card-4 {
+    background-color: #fff; /* Background color of the card */
+    box-shadow: 4px 4px 8px 4px rgba(0,0,0,0.2); /* Shadow effect */
+    border-radius: 8px; /* Rounded corners for the card */
+    width: 650px; /* Width of the card */
+}
+
+.card-5 {
+    background-color: #fff; /* Background color of the card */
+    box-shadow: 4px 4px 8px 4px rgba(0,0,0,0.2); /* Shadow effect */
+    border-radius: 8px; /* Rounded corners for the card */
+    width: 600px; /* Width of the card */
+    height: 920px;
+}
+
+.hello {
+    background-color: #fff; /* Background color of the card */
+   box-shadow: 4px 4px 8px 4px rgba(0,0,0,0.2); /* Shadow effect */
+   border-radius: 8px; /* Rounded corners for the card */
+   width: 355px; /* Width of the card */
+   height: 500px;
+   padding: 20px;
+  
+}
+
+.image-container {
+    text-align: center; 
+}
+
+.description-style {
+    color: #4d4d4d; 
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+ text-align: left;
+}
+
+.line {
+border-top: 1px solid #ccc; /* Gray line using border-top */
+  margin: 10px 0; /* Adjust margin above and below the line */
+}
+
+.bordered-table td,
+.bordered-table tr {
+  border: 1px solid black; /* Border for table cells */
+  text-align: center;
+  padding-left: 10px;
+}
+
+.table-container {
+    text-align: center; /* Aligns the content of the container */
+    padding-left: 10px;
+  }
+  
+  
+
+
+
+
+
+
